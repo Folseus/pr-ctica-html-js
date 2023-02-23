@@ -1,0 +1,72 @@
+<meta charset="UTF-8">
+
+<h1>mi primer programa HTML!!</h1>
+<br>	
+<br>
+<br>
+<br>
+
+será este realmente un programa? descúbralo <a href="https://es.wikipedia.org/wiki/HTML"> AQUÍ</a>
+<br>
+ingresa <a href="https://es.wikipedia.org/wiki/JAVASCRIPT"> AQUÍ </a>para ver un verdadero lenguaje de programación
+
+<script>
+
+	function saltolinea() {
+
+		document.write("<br><br>");
+
+	}
+
+	alert("esto sí es un lenguaje de programación");
+
+	var anho = 2020;
+
+	document.write("Juan tiene " + (anho-2000) + " años");
+	saltolinea();
+	document.write("Pedro tiene " + (anho-1995) + " años");
+
+	anho = 2030;
+
+	saltolinea();
+	document.write("Carlos tiene " + (anho-2005) + " años");
+	
+	
+
+	anho = 2020;
+	document.write("Jimena tiene: " + (anho-2010) + " años");
+	saltolinea();
+
+	document.write("paola tiene: " + (anho-1995) + " años");
+	saltolinea();
+
+	document.write("Laura tiene: " + (anho-2005) + " años");
+	saltolinea();
+
+	var edadJimena = 10;
+	var edadPaola = 25;
+	var edadLaura = 15;
+
+	var nombre1 = "Jimena";
+	var nombre2 = "Paola";
+	var nombre3 = "Laura";
+
+	promedio = (edadJimena+edadPaola+edadLaura)/3
+
+
+	document.write("El promedio de las edades de " + nombre1 + ", " + nombre2 + " y " + nombre3 + " es: " + Math.round(promedio)); 
+	saltolinea();
+
+	function imprimir(texto) {
+
+		document.write (texto)
+		saltolinea();
+
+	}
+
+	imprimir("Hola amigos")
+	imprimir("Juan tiene " + (anho-2000) + " años");
+	imprimir("Pedro tiene " + (anho-1995) + " años");
+
+
+</script>
